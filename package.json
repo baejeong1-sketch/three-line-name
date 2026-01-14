@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "node server.js",
     "vercel-dev": "vercel dev",
-    "build": "vercel build",
+    "build": "echo 'No build step required for static files'",
     "deploy": "vercel --prod"
   },
   "keywords": [
